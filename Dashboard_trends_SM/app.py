@@ -155,4 +155,4 @@ def update_dashboard(platforms, regions, contents, engagement_levels):
 
 # Ejecutar servidor
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
